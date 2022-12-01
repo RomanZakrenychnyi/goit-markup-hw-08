@@ -1,24 +1,23 @@
-.spacials-dots {
+.spacials__list {
     display: flex;
     gap: 30px;
 }
 
-.spacials-list {
+.spacials__item {
     flex-basis: calc((100% - 30px * 3) / 4);
     width: 270px;
 }
 
-.spacial-item {
+.spacials__pics {
     display: flex;
     height: 120px;
     justify-content: center;
     align-items: center;
     margin-bottom: 30px;
     background-color: #F5F4FA;
-    ;
 }
 
-.spacials-tittle {
+.spacials__tittle {
     color: var(--nero);
     font-size: 14px;
     line-height: 1.14;
@@ -30,7 +29,7 @@
     margin-bottom: 10px;
 }
 
-.spacials-text {
+.spacials__text {
     color: var(--grey);
     font-size: 14px;
     font-weight: 400;
