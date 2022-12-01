@@ -1,0 +1,21 @@
+.presentation.section {
+    padding-top: 0;
+}
+
+.software,
+.team-dots {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 0;
+}
+
+.software__item {
+    flex-basis: calc((100% - 30px * 2) / 3);
+}
+
+.relative {
+    position: relative;
+}

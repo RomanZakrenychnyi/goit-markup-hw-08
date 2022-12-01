@@ -1,0 +1,114 @@
+.page-header {
+    border-bottom: 1px solid #ECECEC;
+}
+
+.site-nav,
+.address-nav {
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.site-nav__item {
+    margin-right: 50px;
+}
+
+.site-nav__item:last-child,
+.address-nav__item:last-child {
+    margin-right: 0;
+}
+
+.site-nav__link {
+    display: flex;
+    position: relative;
+    color: var(--nero);
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.site-nav__link:hover,
+.site-nav__link:focus {
+    color: var(--blue);
+}
+
+.site-nav__link.current {
+    color: var(--blue);
+    position: relative;
+
+    transition-property: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.site-nav__link.current::after {
+    position: absolute;
+    bottom: -1px;
+    left: 0px;
+
+    content: "";
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: var(--blue)
+}
+
+.site-nav__link:hover::after,
+.site-nav__link:focus::after {
+    position: absolute;
+    bottom: -1px;
+    left: 0px;
+
+    content: "";
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: var(--blue)
+}
+
+.site-nav__link::after {
+    content: "";
+    background-color: transparent;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.address-nav__item {
+    margin-right: 30px;
+}
+
+.address-nav__email,
+.address-nav__tel {
+    display: flex;
+    align-items: center;
+
+    color: var(--grey);
+    font-weight: 500;
+    line-height: 1.14;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.address-nav__email:hover,
+.address-nav__email:focus,
+.address-nav__tel:hover,
+.address-nav__tel:focus {
+    color: var(--blue);
+}
+
+.address-nav__pic {
+    fill: currentColor;
+    margin-right: 10px;
+}

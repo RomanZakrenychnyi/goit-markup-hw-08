@@ -1,0 +1,47 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.section__tittle {
+    color: var(--nero);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+.flex {
+    display: flex;
+    align-items: center
+}
+
+.card-set {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.page {
+    font-family: Roboto, sans-serif;
+    color: var(--nero);
+    background-color: var(--white);
+}
