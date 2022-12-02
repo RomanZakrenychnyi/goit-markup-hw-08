@@ -78,17 +78,17 @@ ul {
 }
 @media screen and (min-width: 480px) {
   .container {
-    max-width: 767px;
+    width: 480px;
   }
 }
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 1199px;
+    width: 768px;
   }
 }
 @media screen and (min-width: 1200px) {
   .container {
-    max-width: 1600px;
+    width: 1200px;
   }
 }
 
