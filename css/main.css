@@ -672,21 +672,9 @@ ul {
 }
 @media screen and (min-width: 480px) {
   .client__list {
-    max-width: 767px;
     flex-wrap: wrap;
   }
 }
-@media screen and (min-width: 768px) {
-  .client__list {
-    max-width: 1199px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .client__list {
-    max-width: 1600px;
-  }
-}
-
 .client__link {
   display: flex;
   justify-content: center;
