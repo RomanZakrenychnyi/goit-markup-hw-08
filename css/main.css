@@ -77,6 +77,11 @@ ul {
   margin-right: auto;
 }
 
+@media screen and (min-width: 480px) {
+  .contaier {
+    max-width: 480px;
+  }
+}
 .section {
   padding-top: 94px;
   padding-bottom: 94px;

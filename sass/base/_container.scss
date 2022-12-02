@@ -5,3 +5,26 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+@media screen and (min-width: 480px) {
+    .contaier {
+        max-width: 480px;
+    }
+    
+}
+
+
+// .container.adaptive {
+//     max-width: 400px;
+// }
+
+// @media screen and (min-width: 600px) {
+//     .container {
+//         background-color: #00bcd4;
+//     }
+
+//     /* Change the current width of the adaptive container at each breakpoint. */
+//     .container.adaptive {
+//         max-width: 600px;
+//     }
+// }
