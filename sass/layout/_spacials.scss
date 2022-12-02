@@ -1,39 +1,39 @@
 .spacials__list {
-    display: flex;
-    gap: 30px;
+  display: flex;
+  gap: 30px;
 }
 
 .spacials__item {
-    flex-basis: calc((100% - 30px * 3) / 4);
-    width: 270px;
+  flex-basis: calc((100% - 30px * 3) / 4);
+  width: 270px;
 }
 
 .spacials__pics {
-    display: flex;
-    height: 120px;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 30px;
-    background-color: #F5F4FA;
+  display: flex;
+  height: 120px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  background-color: #f5f4fa;
 }
 
 .spacials__tittle {
-    color: var(--nero);
-    font-size: 14px;
-    line-height: 1.14;
-    font-size: 14px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+  color: var(--nero);
+  font-size: 14px;
+  line-height: 1.14;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 
-    padding: 0;
-    margin-bottom: 10px;
+  padding: 0;
+  margin-bottom: 10px;
 }
 
 .spacials__text {
-    color: var(--grey);
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.71;
-    font-size: 14px;
-    letter-spacing: 0.03em;
+  color: var(--grey);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
+  font-size: 14px;
+  letter-spacing: 0.03em;
 }
