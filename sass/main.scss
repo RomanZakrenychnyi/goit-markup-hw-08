@@ -1,24 +1,24 @@
+@import './utils/variables';
+@import './utils/visually-hedden';
+@import './utils/mixins';
 
-@import "./utils/variables";
-@import "./utils/visually-hedden";
+@import './base/common';
+@import './base/container';
+@import './base/section';
 
-@import "./base/common";
-@import "./base/container";
-@import "./base/section";
+@import './components/logo';
+@import './components/subtitle';
+@import './components/button';
+@import './components/_social-links';
+@import './components/modal';
+@import './components/backdrop';
 
-@import "./components/logo";
-@import "./components/subtitle";
-@import "./components/button";
-@import "./components/_social-links";
-@import "./components/modal";
-@import "./components/backdrop";
+@import './layout/header';
+@import './layout/hero';
+@import './layout/spacials';
+@import './layout/presentation';
+@import './layout/team';
+@import './layout/client';
+@import './layout/footer';
 
-@import "./layout/header";
-@import "./layout/hero";
-@import "./layout/spacials";
-@import "./layout/presentation";
-@import "./layout/team";
-@import "./layout/client";
-@import "./layout/footer";
-
-@import "./layout/portfolio";
+@import './layout/portfolio';

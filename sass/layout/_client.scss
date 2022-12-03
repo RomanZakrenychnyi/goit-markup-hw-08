@@ -2,12 +2,22 @@
   display: flex;
   justify-content: center;
   gap: 30px;
+  flex-wrap: wrap;
+}
+
+.client__item {
+  flex-basis: calc((100% - 1 * 30px) / 2);
+  @include table {
+    flex-basis: calc((100% - 2 * 30px) / 3);
+  }
+  @include desktop {
+    flex-basis: calc((100% - 5 * 30px) / 6);
+  }
 }
 
 .client__link {
   display: flex;
   height: 92px;
-  width: 170px;
   border: 1px solid rgba(175, 177, 184, 1);
   border-radius: 4px;
   color: #afb1b8;
