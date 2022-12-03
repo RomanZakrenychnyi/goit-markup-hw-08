@@ -19,12 +19,13 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
 
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   justify-content: center;
 
   @include desktop {
     font-size: 36px;
     line-height: calc(42 / 36);
+    margin-bottom: 50px;
   }
 }
 
