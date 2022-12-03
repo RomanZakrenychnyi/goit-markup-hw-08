@@ -13,10 +13,25 @@
   flex-direction: column;
   text-align: center;
 
+  @include table {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
   @include desktop {
     flex-direction: row;
     text-align: left;
     margin-top: 12px;
+  }
+}
+
+.footer-box__logo--nav {
+  @include table {
+    margin-left: 71px;
+  }
+
+  @include desktop {
+    margin-left: 0;
   }
 }
 
@@ -84,8 +99,23 @@
   display: block;
   margin: 60px auto;
 
+  @include table {
+    margin-right: 74px;
+    margin-top: 0;
+  }
+
   @include desktop {
     margin: 0 93px;
+  }
+}
+
+.form-box {
+  @include table {
+    padding-top: 60px;
+  }
+
+  @include desktop {
+    padding-top: 0;
   }
 }
 
@@ -133,6 +163,14 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+
+  @include table {
+    flex-direction: column;
+  }
+
+  @include desktop {
+    flex-direction: row;
+  }
 }
 
 .form-subscribe__input {
