@@ -516,12 +516,20 @@ ul {
 
 .spacials__list {
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
+  justify-content: center;
 }
 
-.spacials__item {
-  flex-basis: calc((100% - 90px) / 4);
-  width: 270px;
+@media screen and (min-width: 768px) {
+  .spacials__item {
+    flex-basis: calc((100% - 30px) / 2);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .spacials__item {
+    flex-basis: calc((100% - 90px) / 4);
+  }
 }
 
 .spacials__pics {
@@ -540,8 +548,14 @@ ul {
   font-size: 14px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  text-align: center;
   padding: 0;
   margin-bottom: 10px;
+}
+@media screen and (min-width: 768px) {
+  .spacials__tittle {
+    text-align: left;
+  }
 }
 
 .spacials__text {
@@ -582,10 +596,22 @@ ul {
 .team__list {
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 30px;
   margin-top: 0;
   margin-bottom: 0;
   line-height: 0;
+}
+@media screen and (min-width: 768px) {
+  .team__list {
+    flex-basis: calc((100% - 60px) / 3);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .team__list {
+    flex-basis: calc((100% - 90px) / 4);
+  }
 }
 
 .team__item {

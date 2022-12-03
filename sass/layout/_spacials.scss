@@ -1,11 +1,17 @@
 .spacials__list {
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
+  justify-content: center;
 }
 
 .spacials__item {
-  flex-basis: calc((100% - 30px * 3) / 4);
-  width: 270px;
+  @include table {
+    flex-basis: calc((100% - 1 * 30px) / 2);
+  }
+  @include desktop {
+    flex-basis: calc((100% - 3 * 30px) / 4);
+  }
 }
 
 .spacials__pics {
@@ -24,9 +30,14 @@
   font-size: 14px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  text-align: center;
 
   padding: 0;
   margin-bottom: 10px;
+
+  @include table {
+    text-align: left;
+  }
 }
 
 .spacials__text {
