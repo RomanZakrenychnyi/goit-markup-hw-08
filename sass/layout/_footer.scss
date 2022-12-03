@@ -112,6 +112,7 @@
 .form-box {
   @include table {
     padding-top: 60px;
+    margin: 0 auto;
   }
 
   @include desktop {

@@ -4,12 +4,16 @@
 
 .site-nav,
 .address-nav {
-  display: flex;
-  list-style: none;
-  margin-left: auto;
+  display: none;
 
-  margin-top: 0;
-  margin-bottom: 0;
+  @include table {
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+
+    margin-top: 0;
+    margin-bottom: 0;
+  }
 }
 
 .site-nav__item {
