@@ -481,7 +481,7 @@ ul {
   fill: var(--blue);
 }
 
-.menu-container {
+.mobile {
   position: fixed;
   top: 0;
   left: 0;
@@ -494,7 +494,7 @@ ul {
   transition: transform 250ms ease-in-out;
 }
 
-.menu-container.is-open {
+.mobile.is-open {
   transform: translateX(0);
 }
 
