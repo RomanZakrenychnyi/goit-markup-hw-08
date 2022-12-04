@@ -498,6 +498,12 @@ ul {
   transform: translateX(0);
 }
 
+.mobile__list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
 .mobile__link {
   font-family: "Roboto";
   font-style: normal;
