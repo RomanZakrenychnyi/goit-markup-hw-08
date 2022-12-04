@@ -487,6 +487,9 @@ ul {
 }
 
 .menu-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   position: fixed;
   top: 0;
   left: 0;
@@ -507,7 +510,6 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 32px;
-  margin-bottom: 302px;
 }
 
 .mobile__link {
