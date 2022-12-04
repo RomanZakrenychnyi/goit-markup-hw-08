@@ -15,3 +15,21 @@
 .menu-container.is-open {
   transform: translateX(0);
 }
+
+.mobile__link {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: calc(47 / 40);
+  letter-spacing: 0.02em;
+  color: var(--nero);
+  text-decoration: none;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mobile__link:hover,
+.mobile__link:focus {
+  color: var(--blue);
+}
