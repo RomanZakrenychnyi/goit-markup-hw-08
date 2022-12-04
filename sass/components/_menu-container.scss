@@ -70,3 +70,21 @@
   text-decoration: none;
   color: var(--grey);
 }
+
+.mobile-social__list {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.mobile-social__link {
+  text-decoration: none;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: calc(22 / 18);
+  letter-spacing: 0.02em;
+  color: var(--blue);
+  padding-right: 10px;
+}
