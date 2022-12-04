@@ -8,11 +8,36 @@
   height: 600px;
   margin: 0 auto;
 
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url(../img/background/background-hero.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../../img/hero/hero-480.jpg);
+
+  @include retina-bgi {
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+      url(../../img/hero/hero-480-2x.jpg);
+  }
+
+  @include table {
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+      url(../../img/hero/hero-768.jpg);
+
+    @include retina-bgi {
+      background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url(../../img/hero/hero-768-2x.jpg);
+    }
+  }
+
+  @include desktop {
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+      url(../../img/hero/hero-1200.jpg);
+
+    @include retina-bgi {
+      background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url(../../img/hero/hero-1200-2x.jpg);
+    }
+  }
 }
 
 .hero__tittle {
