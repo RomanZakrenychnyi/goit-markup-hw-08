@@ -39,3 +39,7 @@
 .mobile__link:focus {
   color: var(--blue);
 }
+
+.mobile__link.current {
+  color: var(--blue);
+}
