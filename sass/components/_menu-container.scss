@@ -1,8 +1,4 @@
-<<<<<<<< HEAD:sass/components/_menu.scss
-.menu {
-========
 .menu-container {
->>>>>>>> parent of fa92c0b (add nav to mobile, wor on it):sass/components/_menu-container.scss
   position: fixed;
   top: 0;
   left: 0;
@@ -16,10 +12,6 @@
   transition: transform 250ms ease-in-out;
 }
 
-<<<<<<<< HEAD:sass/components/_menu.scss
-.menu.is-open {
-========
 .menu-container.is-open {
->>>>>>>> parent of fa92c0b (add nav to mobile, wor on it):sass/components/_menu-container.scss
   transform: translateX(0);
 }
