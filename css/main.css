@@ -525,6 +525,17 @@ ul {
   color: var(--blue);
 }
 
+.mobile-address__link--tel {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 1.1764705882;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--blue);
+}
+
 .page-header {
   border-bottom: 1px solid #ececec;
 }
