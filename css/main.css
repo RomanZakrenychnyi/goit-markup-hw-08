@@ -593,6 +593,7 @@ ul {
 
 .mobile-social__item {
   display: flex;
+  align-items: center;
 }
 
 .mobile-social__item:not(:last-child)::after {
